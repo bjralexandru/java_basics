@@ -13,7 +13,7 @@ public class researcher{
     
 
     public int increaseSalary(int currentSalary, int raiseAmout) {
-        // My favorite method: SALARY RISE! 
+        // My favourite method: SALARY RISE! 
         // Made it public to be accesible from another file
         // Also made it return an int 
 
