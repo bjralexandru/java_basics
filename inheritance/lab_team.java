@@ -2,7 +2,7 @@ package inheritance;
 
 public class lab_team {
 
-    public static void main(String[] args) {
+    public static void team(String[] args) {
     
         researcher Alex = new researcher();
 
@@ -31,10 +31,9 @@ public class lab_team {
                                     "Surface plasmons",
                                     "Substrate fabrication",};
         Pericle.group = "L1";
-        
+
         System.out.println(Alex.expertise);
         System.out.printf("Pericle's domain of expertise covers: %c%n", Pericle.studies.toString());
-    
     }
 
 }
