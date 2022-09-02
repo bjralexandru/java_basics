@@ -8,7 +8,7 @@ public class cstruct {
     // This attempt of defining an object with the
     // constants class raises an error because 
     // we've made it's default constructor private.
-    
-    constants myConstant = new constants();
+
+    //constants myConstant = new constants();
     }
 }
