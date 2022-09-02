@@ -1,0 +1,8 @@
+cat
+dog
+girl
+boy
+fence
+chainsaw
+microsoft
+mydocalm
