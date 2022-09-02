@@ -52,9 +52,6 @@ public class hman {
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         System.out.println("Player 2 is ready to guess. Good luck!");
     }
-       
-    
-        // STORE THE WORD AS HYPHENS LOGIC 
 
         // This is how you declare a list of characters !NOT strings
         List<Character> playerGueses = new ArrayList<>();
@@ -159,7 +156,7 @@ public class hman {
                 correctCount++;
             }
             else {
-                
+                // STORE THE WORD AS HYPHENS LOGIC 
                 System.out.print("_ ");
             }
         }
