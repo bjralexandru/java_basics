@@ -18,6 +18,14 @@ public class Access1 {
     private String workplace = "The StartUp";
     private int salary = 47000;
 
+    public String getWorkplace(){
+        return "He works at " + workplace;
+    }
+
+    public String getSalary() {
+        return "He earns " + salary;
+    }
+
     // Protected:
 
     protected int pinCode = 7582;

@@ -23,7 +23,7 @@ public class Access2 {
         // values we'll throw an error.
         // Error: field is not visible.
         
-        System.out.println(a.workplace);
+        //System.out.println(a.workplace);
 
 
         // When we're using protected defined 
