@@ -1,20 +1,21 @@
 public class AnotherDebugExample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Here is another example in which we'll be
         // debugging classes.
 
         // By setting a break point at rows 10 and 15
-        // we'll see how the cat1 and cat2 objects 
+        // we'll see how the cat1 and cat2 objects
         // are initialized without any field values
         // which are afterwards populated with data.
         Cat cat1 = new Cat("Kramer");
         cat1.setLitterPreference("TidyCats");
         cat1.setAge(3);
-
+        cat1.getAge();
 
         Cat cat2 = new Cat("George");
         cat2.setLitterPreference("Fresh Step");
         cat2.getLitterPreference();
+        cat2.setAge(7);
 
         System.out.println(cat2.getAge());
 
@@ -29,4 +30,5 @@ public class AnotherDebugExample {
         // This way you can be sure that they refference the
         // same object in memory.
     }
+    
 }

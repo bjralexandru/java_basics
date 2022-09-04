@@ -11,6 +11,9 @@ public class constants {
         
     }
     public static final int NUMBER_OF_MONTHS_IN_A_YEAR = 12;
+    // Here you should pay attention to the "final"
+    // token because it means that nobody can change the 
+    // constants value.
 
     public static final int NUMBER_OF_DAYS_IN_A_WEEK = 7;
 
