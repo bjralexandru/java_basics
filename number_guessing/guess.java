@@ -10,12 +10,19 @@ public class guess {
     // Variables        
         Random computerGenerated = new Random();
         int target = computerGenerated.nextInt(100);
-        System.out.println("The target is: " + target);
     
-        System.out.println("Please input your guess: ");
+        System.out.println("Please input your guess (1-100): ");
         Scanner guess = new Scanner(System.in);
+
+        while (!guess.hasNextInt()){
+            // Check the user is parsing a proper integer!
+            System.out.println("Please insert a proper integer!");
+            System.out.println("Please input your guess (1-100): ");
+            guess = new Scanner(System.in);
+        }
+
         int playerGuess = guess.nextInt();
- 
+        
         // Core logic
         while (playerGuess != target) {
             
