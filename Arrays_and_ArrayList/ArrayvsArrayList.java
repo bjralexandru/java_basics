@@ -47,7 +47,7 @@ public class ArrayvsArrayList {
         frArrayList2.remove("Catalin"); // remove item from arrList.
 
         // Printing diffs
-        System.out.println(frArray2); // Returns the address in memory for the object
+        System.out.println(friendsArray); // Returns the address in memory for the object
         // Instead you'll have to iterate over it
         // with a for loop.
         System.out.println(frArrayList2); // has a toString() method which returns the content of our object.
