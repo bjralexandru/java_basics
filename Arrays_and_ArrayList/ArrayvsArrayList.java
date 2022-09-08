@@ -21,15 +21,13 @@ public class ArrayvsArrayList {
         ArrayList<String> frArrayList = new ArrayList<>();
         // <> is called the diamond operator.
 
-        ArrayList<String> frArrayList2 = new
+        ArrayList<String> frArrayList2 = new ArrayList<>(Arrays.asList("Alex", "Catalin", "Andrei"));
         // By doing so we're populating the array
         // list with values.
 
         // Arrays.asList accomplished the same thing
         // but in turn it gives us an IMMUTABLE
         // LIST.
-
-        ArrayList<>(Arrays.asList("Alex", "Catalin", "Andrei"));
 
         System.out.println(frArray2[1]); // This is how you get the index of an Array.
 
